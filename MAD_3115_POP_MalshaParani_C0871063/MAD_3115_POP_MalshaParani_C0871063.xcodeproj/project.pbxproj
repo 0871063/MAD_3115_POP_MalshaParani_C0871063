@@ -13,6 +13,10 @@
 		2C07EE7B28FDFF990089B10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C07EE7928FDFF990089B10B /* Main.storyboard */; };
 		2C07EE7D28FDFF9C0089B10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C07EE7C28FDFF9C0089B10B /* Assets.xcassets */; };
 		2C07EE8028FDFF9C0089B10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C07EE7E28FDFF9C0089B10B /* LaunchScreen.storyboard */; };
+		2C07EE8828FE000B0089B10B /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07EE8728FE000A0089B10B /* Animal.swift */; };
+		2C07EE8A28FE00140089B10B /* Gadget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07EE8928FE00140089B10B /* Gadget.swift */; };
+		2C07EE8C28FE001B0089B10B /* AnimalInDanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07EE8B28FE001B0089B10B /* AnimalInDanger.swift */; };
+		2C07EE8E28FE00300089B10B /* StuffedAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07EE8D28FE00300089B10B /* StuffedAnimal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2C07EE7C28FDFF9C0089B10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C07EE7F28FDFF9C0089B10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C07EE8128FDFF9C0089B10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C07EE8728FE000A0089B10B /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		2C07EE8928FE00140089B10B /* Gadget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gadget.swift; sourceTree = "<group>"; };
+		2C07EE8B28FE001B0089B10B /* AnimalInDanger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalInDanger.swift; sourceTree = "<group>"; };
+		2C07EE8D28FE00300089B10B /* StuffedAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StuffedAnimal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		2C07EE7228FDFF990089B10B /* MAD_3115_POP_MalshaParani_C0871063 */ = {
 			isa = PBXGroup;
 			children = (
+				2C07EE8D28FE00300089B10B /* StuffedAnimal.swift */,
+				2C07EE8928FE00140089B10B /* Gadget.swift */,
+				2C07EE8728FE000A0089B10B /* Animal.swift */,
+				2C07EE8B28FE001B0089B10B /* AnimalInDanger.swift */,
 				2C07EE7328FDFF990089B10B /* AppDelegate.swift */,
 				2C07EE7528FDFF990089B10B /* SceneDelegate.swift */,
 				2C07EE7728FDFF990089B10B /* ViewController.swift */,
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C07EE7828FDFF990089B10B /* ViewController.swift in Sources */,
+				2C07EE8C28FE001B0089B10B /* AnimalInDanger.swift in Sources */,
+				2C07EE8E28FE00300089B10B /* StuffedAnimal.swift in Sources */,
+				2C07EE8828FE000B0089B10B /* Animal.swift in Sources */,
 				2C07EE7428FDFF990089B10B /* AppDelegate.swift in Sources */,
+				2C07EE8A28FE00140089B10B /* Gadget.swift in Sources */,
 				2C07EE7628FDFF990089B10B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
